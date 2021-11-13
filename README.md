@@ -7,4 +7,4 @@ Pushing json structs from a log file dynamically read to a bridge. Random data g
 Predetermined string patterns have no intrinsic value; they are relatable to my curricular stage.
 
 ## Pushing part
-**pushing.py** read dynamically from a log file in continous writing (thanks to _writing.py_). Every line passes through regex controls, and if there's a match data are parsed and written in a json structure (dictionary/nested dictionary). Finally, they are pushed with a POST request to a bridge/server/whatever you want capable to handle them. 
+**pushing.py** read dynamically from a log file in continous writing (thanks to _writing.py_). Every line passes through regex controls, and if there's a match data are parsed and written in a json structure (dictionary/nested dictionary). Finally, they are pushed with a HTTP POST request to a bridge/server/whatever you'd like capable to handle them.
